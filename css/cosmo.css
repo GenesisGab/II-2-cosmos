@@ -1,0 +1,156 @@
+*{  
+    margin:0;
+    padding:0;
+    font-family: monospace;
+
+} 
+.titulos{
+    text-align: center;
+    color: black;
+    margin: 0px 40px 0px 10px;
+    font-size: 50px;
+}
+/**************FLECHA***************/
+.flecha{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.flecha:hover{
+    background-color: #FBAB7E;
+background-image: -webkit-linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+background-image: -o-linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+background-image: linear-gradient(152deg, #FBAB7E 0%, #F7CE68 100%);
+    color: #fff;
+}
+/********************** planetas ********************/
+section{
+    width: 1000px;
+    margin: auto;
+}
+.section_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.section_1 div {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.section_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;        
+}
+.section_2 div {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.section_3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;        
+}
+.section_3 div{
+     width: 200px;
+    height: 200px;
+    background-color: #fff;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+/*********************** tamaño de las imagenes ******************************/
+img{
+    width: 200px;
+    height: 182px;
+}
+/************************** galaxia **************************************/
+.titulo_gal{
+    text-align: center;
+    color: black;
+    
+    font-size: 40px;
+    text-align: center;
+}
+.section_gal{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;  
+    text-align: center;
+      
+}
+.section_gal div{
+     width: 355px;
+    height: 350px;
+    background-color: #fff;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.bn_mas{
+     width: 80px;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+     background-color: #E06110;
+}
+.bn_mas:hover{
+background-color: #FBAB7E;
+background-image: -webkit-linear-gradient(152deg, #FBAB7E 0%, #F7CE68 100%);
+background-image: -o-linear-gradient(152deg, #FBAB7E 0%, #F7CE68 100%);
+background-image: linear-gradient(242deg, #FBAB7E 0%, #F7CE68 100%);
+
+    color: #fff;
+    width: 120px;
+}
+.bn_mas2{
+    width: 80px;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+     background-color: #E06110;
+}
+.bn_mas2:hover{
+background-color: #FBAB7E;
+background-image: -webkit-linear-gradient(152deg, #FBAB7E 0%, #F7CE68 100%);
+background-image: -o-linear-gradient(152deg, #FBAB7E 0%, #F7CE68 100%);
+background-image: linear-gradient(242deg, #FBAB7E 0%, #F7CE68 100%);
+    color: #fff;
+    width: 120px;  
+}
+/****************************** LUNA *********************************************/
+.img_luna{
+    width: 100px;
+    height: 100px;
+}
+.titulo_lun{
+    color: #fff;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+    font-size: 50px;
+}
+.section_lun{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.section_lun div {
+    width: 100px;
+    height: 95px;
+    margin: 10px 1px 10px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}

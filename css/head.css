@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: o;    
+    font-family: sans-serif;
+}
+header{
+    
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 10px 50px 10px 50px;
+    
+/*  background-color: background-color: #030303;
+background-image: linear-gradient(0deg, #030303 0%, #3c207a 100%);       
+*/
+  
+/*background-color: #BF532C;*/
+background-color: #15227a;
+background-image: linear-gradient(0deg, #15227a 50%, #280d07 100%);
+
+
+}
+    
